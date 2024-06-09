@@ -1,0 +1,126 @@
+body {
+  background: linear-gradient(to right, darkviolet, darkblue);
+  color: whitesmoke;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  background: rgba(164, 7, 243, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  backdrop-filter: blur(20px);
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.city-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  color: #333;
+  display: block;
+}
+
+.search-icon {
+  background: white;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 50px;
+  transition: background 0.8s;
+}
+
+.search-icon:hover {
+  background: black;
+}
+
+.search-icon img {
+  width: 30px;
+  height: 20px;
+}
+
+.load, .error {
+  color: red;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.8s;
+}
+
+.weather-details:hover {
+  transform: translateY(-5px);
+}
+
+.weather-details .image img {
+  width: 150px;
+  height: 150px;
+}
+
+.weather-details .temperature {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.weather-details .city {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-details .country {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.weather-details .coordinates,
+.weather-details .additional-info {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.weather-details .coordinates div,
+.weather-details .additional-info div {
+  margin: 5px 0;
+}
