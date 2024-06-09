@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/weather-project-react/static/css/main.eeeb07c6.css",
+    "main.js": "/weather-project-react/static/js/main.aae1af3e.js",
+    "static/js/453.97127cc3.chunk.js": "/weather-project-react/static/js/453.97127cc3.chunk.js",
+    "static/media/rainpicture.png": "/weather-project-react/static/media/rainpicture.50e51d8f3c3c836518da.png",
+    "static/media/windpicture.png": "/weather-project-react/static/media/windpicture.df1b9569abe090aa63ae.png",
+    "static/media/stormpicture.png": "/weather-project-react/static/media/stormpicture.66f168b5488809f2d8dc.png",
+    "static/media/clear-skypicture.png": "/weather-project-react/static/media/clear-skypicture.39c00a0b8b214d7c09b9.png",
+    "static/media/cloudypicture.png": "/weather-project-react/static/media/cloudypicture.76b4ea9c61f0be2a608a.png",
+    "static/media/sunpicture.png": "/weather-project-react/static/media/sunpicture.3c891107df9c87318dde.png",
+    "index.html": "/weather-project-react/index.html",
+    "main.eeeb07c6.css.map": "/weather-project-react/static/css/main.eeeb07c6.css.map",
+    "main.aae1af3e.js.map": "/weather-project-react/static/js/main.aae1af3e.js.map",
+    "453.97127cc3.chunk.js.map": "/weather-project-react/static/js/453.97127cc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeeb07c6.css",
+    "static/js/main.aae1af3e.js"
+  ]
+}
